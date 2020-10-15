@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" lang="pt-br">
+        <title> Roupas, Mistura Feminina</title>
+        <link rel="stylesheet" type= "text/css" href="Estilo.css">
+        <script src="funcao.js"></script>
+    </head>
+    <body>
+        <!--Início do Menu-->
+
+        <nav class="menu">
+            <a href="Site de Roupas - Aline Ribeiro.html">
+            <img width="150px" src="Logo da Loja.jpg" all= "Mistura Feminina"></a>
+            <a href="Roupas.html">Roupas</a>
+            <a href="Endereço.html">Endereço</a>
+            <a href="Fale Conosco.html">Fale Conosco</a>
+        </nav>
+        <!--Fim do Menu-->
+
+        <header>
+        <h1>Roupas</h1>
+        </header>
+        <hr>
+            <section class="categorias">
+                <h2>Categorias</h2>
+                <ol>
+                    <li onclick="exibirtodos()"> Todos (15)</li>
+                    <li onclick="exibircategorias('Shorts')">Shorts (2)</li>
+                    <li onclick="exibircategorias('Vestidos')">Vestidos (2)</li>
+                    <li onclick="exibircategorias('T-shirt')">T-shirt (4)</li>
+                    <li onclick="exibircategorias('Bermuda')">Bermudas(2)</li>
+                    <li onclick="exibircategorias('CalçaJeans')">Calça Jeans(3)</li>
+                </ol>
+            </section>
+
+        
+        
+        <section width = 100% style="display:flex; flex-wrap:wrap;">
+            <div class="boxprodutos" id="Shorts" style="display:block;">
+               
+                <img src="Shor Jeans Bordado Tucano.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                <size="2"> Short Jeans Bordado Tucano </size>
+                <hr>
+                <size="2"><strike>R$ 60,00 </strike><br></size>
+                <size="4" style="color:red">R$ 40,00</color></size><br>
+            </div>
+        
+            <div class="boxprodutos" id="Shorts" style="display:block;"> 
+                <img src="Short Jeans Fita Nude.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                <size="2">Short Jeans de Fita Nude</size>
+                <hr>
+                <size="2"><strike>R$ 70,00 </strike></size><br>
+                <size="4" style="color:red">R$ 50,00</size></color><br>
+            </div>
+    
+            <div class="boxprodutos" id="Vestidos" style="display:block;"> 
+                <img src="Vestido Casual.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                <size="2">Vestido Casual</size>
+                <hr>
+                <size="2"><strike>R$ 120,00 </strike></size><br>
+                <size="4" style="color:red">R$ 100,00</size></color><br>
+            </div>
+      
+            <div class="boxprodutos" id="Vestidos" style="display:block;"> 
+                <img src="Vestido Curto.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                <size="2">Vestido Curto Gabriela</size>
+                <hr>
+                <size="2"><strike>R$ 100,00 </strike></size><br>
+                <size="4" style="color: red;">R$ 80,00</size></color><br>
+            </div>
+     
+            <div class="boxprodutos" id="Vestidos" style="display:block;">  
+                <img src="Vestido Longo.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                <size="2">Vestido Longo Giovanna</size>
+                <hr>
+                <size="2"><strike>R$ 170,00 </strike></size><br>
+                <size="4" style="color: red;">R$ 150,00</size></color><br>
+            </div>
+
+            <div class="boxprodutos" id="T-shirt" style="display:block;"> 
+                <img src="T-shirt Abençoada.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                <size="2">T-shirt Abençoada (Todas as cores)</size>
+                <hr>
+                <size="2"><strike>R$ 30,00 </strike></size><br>
+                <size="4" style="color: red;">R$ 20,00</size></color><br>
+            </div>
+       
+            <div class="boxprodutos" id="T-shirt" style="display:block;"> 
+                <img src="T-shirtFeminina-QuemDisse.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                <size="2">T-shirt Feminina Quem Disse</size>
+                <hr>
+                <size="2"><strike>R$ 30,00 </strike></size><br>
+                <size="4" style="color: red;">R$ 20,00</size></color><br>
+            </div>
+      
+            <div class="boxprodutos" id="T-shirt" style="display:block;"> 
+                <img src="T-shirt Chanel.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                <size="2">T-shirt Chanel</size>
+                <hr>
+                <size="2"><strike>R$ 30,00 </strike></size><br>
+                <size="4" style="color: red">R$ 20,00</size></color><br>
+            </div>
+       
+            <div class="boxprodutos" id="T-shirt" style="display:block;">  
+                <img src="Tshirt Marilyn Monroe.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                <size="2">T-shirt Marilyn Monroe</size>
+                <hr>
+                <size="2"><strike>R$ 30,00 </strike></size><br>
+                <size="4" style="color: red">R$ 20,00</size></color><br>
+            </div>
+        
+            <div class="boxprodutos" id="Bermuda" style="display:block;"> 
+                <img src="Bermuda curta 2.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                <size="2">Bermuda Curta Colorida</size>
+                <hr>
+                <size="2"><strike>R$ 70,00 </strike></size><br>
+                <size="4" style="color: red;">R$ 50,00</size></color><br>
+            </div>
+        
+            <div class="boxprodutos" id="Bermuda" style="display:block;"> 
+                <img src="Bermuda preta.jpg" width="120px" onclick="destaque(this)">
+                <br>
+                <size="2">Bermuda Preta Arco-Iris</size>
+                <hr>
+                <size="2"><strike>R$ 60,00</strike></size><br>
+                <size="2" style="color: red;">R$ 50,00</size></color><br>
+            </div>
+       
+                <div class="boxprodutos" id="Bermuda" style="display:block;"> 
+                    <img src="Bermuda.jpg" width="120px" onclick="destaque(this)">
+                    <br>
+                    <size="2">Bermuda Curta Social</size>
+                    <hr>
+                    <size="2"><strike>R$ 70,00</strike></size><br>
+                    <size="2" style="color: red;">R$ 60,00</size></color><br>
+                </div>
+            
+                    <div class="boxprodutos" id="CalçaJeans" style="display:block;"> 
+                        <img src="Calca Jeans Enfim Destroyed.jpg" width="120px" onclick="destaque(this)">
+                        <br>
+                        <size="2">Calça Jeans Destroyed</size>
+                        <hr>
+                        <size="2"><strike>R$ 200,00</strike></size><br>
+                        <size="2" style="color: red;">R$ 180,00</size></color><br>
+                    </div>
+               
+                        <div class="boxprodutos" id="CalçaJeans" style="display:block;"> 
+                            <img src="Calca Jeans Lavagem Clara.jpg" width="120px" onclick="destaque(this)">
+                            <br>
+                            <size="2">Calça Jeans Lavagem Clara</size>
+                            <hr>
+                            <size="2"><strike>R$ 250,00</strike></size><br>
+                            <size="2" style="color: red;">R$ 200,00</size></color><br>
+                        </div>
+                
+                        <div class="boxprodutos" id="CalçaJeans" style="display:block;"> 
+                            <img src="Calca Jeans Skinny.jpg" width="120px" onclick="destaque(this)">
+                            <br>
+                            <size="2">Calça Jeans Skinny</size>
+                            <hr>
+                            <size="2"><strike>R$ 300,00</strike></size><br>
+                            <size="2" style="color: red;">R$ 250,00</size></color><br>
+
+                        </div>            
+                </section>
+        
+
+                <br><br><br><br>
+
+                <footer id="rodape"> 
+                    <p id="formadepagamento"><b>Formas de Pagamento</b></p>
+                    <img src="formasdepagamento.jpg" alt="Formas de Pagamento" width="50%">
+                    <p>&copy; Recode Pro</p> 
+                </footer>
+        </body>
+    </html>
